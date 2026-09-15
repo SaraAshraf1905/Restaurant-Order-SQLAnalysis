@@ -1,4 +1,4 @@
-### 🙏 Thank You
+### READ ME
 
 A big thank you to **Maven Analytics** for the helpful tutorial and guidance throughout this project. I followed the tutorial as part of my learning journey and used it to practice and strengthen my SQL and data analysis skills.
 I really appreciate the time and effort that went into creating such a useful learning resource!
