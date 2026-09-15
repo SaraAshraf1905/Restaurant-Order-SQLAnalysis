@@ -2,6 +2,7 @@
 select * from dbo.menu_items
 select count(item_name) as ItemsCount
 from dbo.menu_items 
+ 
 --Task2:What are the least and most expensive items on the menu?
 select top 1 item_name,price
 from dbo.menu_items 
