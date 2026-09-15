@@ -23,7 +23,7 @@ order by total DESC
 
 --Task4:View the details of the highest spend order. Which specific items were purchased?
 select top 1
-o.order_id ,sum(m.price)total
+    o.order_id ,sum(m.price)total
 from dbo.menu_items m full join dbo.order_details o on o.item_id=m.menu_item_id 
 group by (order_id) 
 order by total desc;
